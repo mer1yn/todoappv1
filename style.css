@@ -193,3 +193,31 @@ section {
 .items .item span.check input[type="checkbox"]:checked + label{
   background-color: rgb(0, 117, 255);
 }
+
+
+.alta {
+  background-color: rgb(184, 97, 97);
+}
+.media {
+  background-color: rgb(236, 186, 58);
+}
+.baja {
+  background-color: rgb(77, 140, 181);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
