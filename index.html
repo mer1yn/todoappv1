@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+
+  <nav>
+    <h1>TODO app v1</h1>
+  </nav>
+
+  <section class="new-item">
+    <form action="">
+      <input type="text" placeholder="Titulo" id="title">
+      <textarea name="name" rows="8" cols="80" id="description" placeholder="Descripcion"></textarea>
+
+      <span class="radio">
+        <input type="radio" name="priority" checked>
+        <label for=""></label>
+        <span>Alta</span>
+      </span>
+      <span class="radio">
+        <input type="radio" name="priority">
+        <label for=""></label>
+        <span>Media</span>
+      </span>
+      <span class="radio">
+        <input type="radio" name="priority">
+        <label for=""></label>
+        <span>Baja</span>
+      </span>
+      <!-- <select class="" name="" id="priority">
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select> -->
+      <button type="button" id="button"><i class="fas fa-plus"></i></button>
+    </form>
+  </section>
+
+  <section class="items">
+    <article class="item">
+      <h2>Titulo</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores facilis tempora nobis placeat. Pariatur ex repellendus earum dicta illum hic voluptatibus blanditiis natus animi facere, neque nisi, quos perspiciatis placeat, incidunt amet possimus ipsum qui eaque quibusdam ipsa ea. Quaerat.</p>
+      <span class="check">
+        <input type="checkbox">
+        <label for=""></label>
+      </span>
+    </article>
+    <article class="item">
+      <h2>Titulo</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, at? Totam, quidem similique mollitia est odit, numquam repellat rerum sint.</p>
+      <span class="check">
+        <input type="checkbox">
+        <label for=""></label>
+      </span>
+    </article>
+  </section>
+
+</body>
+</html>
